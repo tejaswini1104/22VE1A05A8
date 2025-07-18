@@ -1,44 +1,46 @@
 {
   "urls": [
     {
-      "id": "f542",
-      "url": "https://www.amazon.in/Apple-iPhone-15-128-GB/dp/B0CHX2F5QT/ref=sr_1_1_sspa?crid=1YOMI4NRX3L6Z&dib=eyJ2IjoiMSJ9.ZfWGl0-Jh8pTURpV5oT1tKwPR7Q2Yk9KXEyL9NBeGpA&dib_tag=se&keywords=iphone+15&qid=1721280000&s=electronics&sprefix=iphone+15%2Celectronics%2C202&sr=1-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1",
-      "validity": "1",
-      "shortcode": "",
-      "shortUrl": "http://short.ly/pp3ru",
-      "expiry": "2025-07-18T07:10:47.363Z"
-    },
-    {
-      "id": "99a7",
-      "url": "",
-      "validity": "",
-      "shortcode": "",
-      "shortUrl": "http://short.ly/gos86i",
-      "expiry": "2025-07-18T07:09:47.406Z"
-    },
-    {
-      "id": "01c5",
-      "url": "https://www.amazon.in/Apple-iPhone-15-128-GB/dp/B0CHX2F5QT/ref=sr_1_1_sspa?crid=1YOMI4NRX3L6Z&dib=eyJ2IjoiMSJ9.ZfWGl0-Jh8pTURpV5oT1tKwPR7Q2Yk9KXEyL9NBeGpA&dib_tag=se&keywords=iphone+15&qid=1721280000&s=electronics&sprefix=iphone+15%2Celectronics%2C202&sr=1-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1",
-      "validity": "1",
-      "shortcode": "",
-      "shortUrl": "http://short.ly/jku2l9",
-      "expiry": "2025-07-18T07:13:48.776Z"
-    },
-    {
-      "id": "8c1d",
-      "url": "https://www.amazon.in/Apple-iPhone-15-128-GB/dp/B0CHX2F5QT/ref=sr_1_1_sspa?crid=1YOMI4NRX3L6Z&dib=eyJ2IjoiMSJ9.ZfWGl0-Jh8pTURpV5oT1tKwPR7Q2Yk9KXEyL9NBeGpA&dib_tag=se&keywords=iphone+15&qid=1721280000&s=electronics&sprefix=iphone+15%2Celectronics%2C202&sr=1-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1",
-      "validity": "1",
-      "shortcode": "",
-      "shortUrl": "http://short.ly/y2ocqk",
-      "expiry": "2025-07-18T07:14:21.791Z"
-    },
-    {
-      "id": "1ef6",
+      "id": 1,
+      "shortcode": "abc123",
+      "shortUrl": "http://localhost:3000/abc123",
       "url": "https://www.wikipedia.org/",
-      "validity": "2",
-      "shortcode": "",
-      "shortUrl": "http://short.ly/yqk1af",
-      "expiry": "2025-07-18T07:15:21.805Z"
+      "createdAt": "2025-07-18T10:00:00Z",
+      "expiry": "2025-07-18T12:00:00Z",
+      "clicks": 3,
+      "clickDetails": [
+        {
+          "timestamp": "2025-07-18T10:30:00Z",
+          "source": "Chrome",
+          "location": "Hyderabad"
+        },
+        {
+          "timestamp": "2025-07-18T10:45:00Z",
+          "source": "Firefox",
+          "location": "Delhi"
+        },
+        {
+          "timestamp": "2025-07-18T11:00:00Z",
+          "source": "Edge",
+          "location": "Bangalore"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "shortcode": "xyz789",
+      "shortUrl": "http://localhost:3000/xyz789",
+      "url": "https://www.openai.com/",
+      "createdAt": "2025-07-18T09:00:00Z",
+      "expiry": "2025-07-18T13:00:00Z",
+      "clicks": 1,
+      "clickDetails": [
+        {
+          "timestamp": "2025-07-18T09:30:00Z",
+          "source": "Safari",
+          "location": "Mumbai"
+        }
+      ]
     }
   ]
 }
