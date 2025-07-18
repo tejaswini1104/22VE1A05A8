@@ -1,0 +1,46 @@
+.stats-container {
+  padding: 2rem;
+  font-family: 'Segoe UI', sans-serif;
+  max-width: 900px;
+  margin: auto;
+}
+
+h2 {
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+.error-text {
+  color: red;
+  margin-bottom: 1rem;
+}
+
+.stats-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.stats-item {
+  border: 1px solid #ddd;
+  border-left: 4px solid #007bff;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 4px;
+  background-color: #f9f9f9;
+}
+
+.stats-url {
+  margin-bottom: 0.5rem;
+  color: #222;
+}
+
+.click-details {
+  margin-top: 0.5rem;
+  padding-left: 1rem;
+  font-size: 0.95rem;
+  color: #444;
+}
+
+.click-entry {
+  margin-top: 0.2rem;
+}
